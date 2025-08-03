@@ -23,7 +23,9 @@ function ClearButton({ onClear }) {
       className="delete ml-3"
       onClick={onClear}
       aria-label="Clear selection"
-    />
+    >
+      Clear
+    </button>
   );
 }
 
